@@ -14,3 +14,9 @@ This is a updated plugin from https://github.com/joe1chen/nodebb-plugin-search-e
 ## Installation
 
     npm install nodebb-plugin-elasticsearch
+    
+    
+## updating
+
+fixed the bug of latest version of elasticsearch api (^12.x.x) 
+fixed searcingh result id error 
