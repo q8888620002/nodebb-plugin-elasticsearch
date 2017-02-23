@@ -14,6 +14,8 @@ Before doing searching, remember to **start elasticsearch** and **import your da
 
 ## Configuration
 
+1. Install the lastest version of elasticsearch 
+1. Import your data into elasticsearch by any plugin such as [mongo-connector](https://github.com/mongodb-labs/mongo-connector).)
 1. Install this plugin via npm: `npm install nodebb-plugin-elasticsearch`
 1. Activate it in the Plugins page
 1. Restart NodeBB
