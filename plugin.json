@@ -26,5 +26,5 @@
   "less": [
     "static/style.less"
   ],
-  "templates": "static/templates"
+  "templates": "templates"
 }
