@@ -2,11 +2,9 @@
 
 ## Motivation
 
-Since the current nodebb search engine does not support Chinese-text search, I decided to use elasticsearch as the search engine not the db engine. So it's important that you have to import t your data from the mongodb/redis to build index for elasticsearch by any plugin. 
-
-For this plugin, I am assuming that your are using [mongo-connector](https://github.com/mongodb-labs/mongo-connector) as me.
-
-This is a updated plugin from [joe1chen](https://github.com/joe1chen/nodebb-plugin-search-elasticsearch)  NodeBB to utilise an installation of Elasticsearch as a search backend which supports Madarin text
+Since the current nodebb search engine does not support Chinese-text search, I used the elastic-search  as the content, post and tpoic, search engine. Before doing searching, you must import your data from the original Nodebb-supported database, mongodb/redis ,to elaseticsearch to build index by any otehr plugin. 
+I am assuming that your are using [mongo-connector](https://github.com/mongodb-labs/mongo-connector) as me.
+This is an updated plugin from [joe1chen](https://github.com/joe1chen/nodebb-plugin-search-elasticsearch)
 
 ## Contributors
 
